@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cr.ac.ucr.rav.sodauniversitaria.MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a Soda Universitaria!" />
+
+    <TextView
+        android:id="@+id/persona"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=": es un placer servirle."
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Ir a la página web"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPagina"
+        android:layout_below="@+id/persona"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Llamar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonPagina"
+        android:id="@+id/buttonLlamar" />
+
+        <Button
+            android:text="Enviar Correo electrónico"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonLlamar"
+            android:id="@+id/buttonCorreo" />
+
+    <Button
+        android:text="Ir a el Mapa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonCorreo"
+        android:id="@+id/buttonMapa" />
+
+    <Button
+        android:text="Ir a calcular propina"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonMapa"
+        android:id="@+id/buttonCalcularPropina" />
+
+    <Button
+        android:text="Ir a la lista de Sodas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonCalcularPropina"
+        android:id="@+id/buttonListaSodas" />
+</RelativeLayout>
